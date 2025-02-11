@@ -1,0 +1,60 @@
+﻿{
+    "id":  "0587c884-2185-46de-9288-39e54397c13c",
+    "name":  "app1.common",
+    "publisher":  "Freddy",
+    "version":  "1.0.23.0",
+    "brief":  "",
+    "description":  "",
+    "platform":  "1.0.0.0",
+    "application":  "22.0.0.0",
+    "runtime":  "14.0",
+    "logo":  "",
+    "url":  "",
+    "EULA":  "",
+    "privacyStatement":  "",
+    "help":  "",
+    "target":  "Cloud",
+    "screenshots":  [
+
+                    ],
+    "dependencies":  [
+                         {
+                             "id":  "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
+                             "publisher":  "Microsoft",
+                             "name":  "Library Assert",
+                             "version":  "22.0.0.0"
+                         },
+                         {
+                             "id":  "e7320ebb-08b3-4406-b1ec-b4927d3e280b",
+                             "publisher":  "Microsoft",
+                             "name":  "Any",
+                             "version":  "22.0.0.0"
+                         }
+                     ],
+    "idRanges":  [
+                     {
+                         "from":  50300,
+                         "to":  99999
+                     }
+                 ],
+    "features":  [
+                     "NoImplicitWith"
+                 ],
+    "resourceExposurePolicy":  {
+                                   "allowDebugging":  true
+                               },
+    "source":  {
+                   "repositoryUrl":  "https://github.com/freddydk/app2",
+                   "commit":  "1906b281669067b3cf66a3b5880e4e9772178cae"
+               },
+    "build":  {
+                  "by":  "AL-Go for GitHub,dev",
+                  "url":  "https://github.com/freddydk/app2/actions/runs/13264358919"
+              },
+    "internalsVisibleTo":  [
+
+                           ],
+    "keyVaultUrls":  [
+
+                     ]
+}
